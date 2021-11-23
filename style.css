@@ -1,0 +1,49 @@
+body {
+    background-color: blue;
+}
+
+#avi {
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#lista {
+    list-style: none;
+    padding: 0;
+    background-color:white;
+}
+#lista li {
+    text-align: center;
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+#lista li a{
+    background-color:white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+  
+}
+
+@media (max-width:800px) {
+   
+    #avi{
+    max-width: 100%;
+    display: none;
+    }
+}
+
+@media (min-width:800px) {
+   
+    #jato{
+    max-width: 100%;
+    display: none;
+    }
+}
+
+
+
+
+    
