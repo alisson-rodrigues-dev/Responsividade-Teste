@@ -1,3 +1,3 @@
 # Responsividade-Teste
 ### Testando media quéries (@media) 
-![video.gif](video.gif)
+![video1.gif](video1.gif)
