@@ -1,18 +1,22 @@
+
+    
+
+    
 body {
-    background-image: linear-gradient(90deg, white,blue);
+    background-color: blue;
 }
 #resp{
     width: 100vmax;
 
-}
-#image {
-    width: 20vw;
 }
 
 #avi {
     animation-name: fly;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+}
+#image {
+    width: 20vw;
 }
 
 #lista {
@@ -59,9 +63,36 @@ body {
     }
 
 }
+ #avi {
+    background-image: url(../Responsividade/avi.png);
 
-
+    animation: fly;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
 
     
+}
+#jato {
+    background-image: url(../Responsividade/jato.png);
+
+    animation: fly;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+    
+}
+@keyframes fly {
+    100%{
+        transform: translateX(50vw);
+    }
+}
+
+
 
     
